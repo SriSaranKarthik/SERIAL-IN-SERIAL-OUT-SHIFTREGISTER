@@ -23,20 +23,43 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
+**Truth Table**
+
+![image](https://github.com/user-attachments/assets/1dbc0c9c-2d3f-416e-8fa8-3993d4b96757)
+
+
 **Procedure**
 
-/* write all the steps invloved */
+/* 1.Type the Verilog program in Quartus Prime to implement the 4-bit Serial-In Serial-Out (SISO) Shift Register.
+
+2.Compile and run the program to ensure the design is error-free.
+
+3.Generate the RTL schematic to visualize the cascading D flip-flop connections and save it for documentation.
+
+4.Create nodes for the serial input (SI), clock (CLK), and serial output (SO) to observe the shifting process during simulation.
+
+5.Simulate the design for different input serial data patterns and observe the timing diagrams. */
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+![image](https://github.com/user-attachments/assets/35a906a1-c20f-4156-9dae-326f04bb673d)
+
+Developed by: K.SriSaran Karthik RegisterNumber: 24007192
 
 */
 
 **RTL LOGIC FOR SISO Shift Register**
 
+![image](https://github.com/user-attachments/assets/3cd8e09b-6c7d-4947-887f-880910cf2087)
+
+
 **TIMING DIGRAMS FOR SISO Shift Register**
 
+![image](https://github.com/user-attachments/assets/bdbc6bbb-389a-4802-b0c9-2faec8b8f397)
+
+
 **RESULTS**
+
+Thus, the Serial-In Serial-Out (SISO) Shift Register is implemented using Verilog, and its functionality is validated with the truth table and timing diagrams.
